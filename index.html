@@ -33,7 +33,6 @@
 
     <div class="icons">
         <div class="fas fa-moon" id="theme-btn"></div>
-        <div class="fas fa-search" id="search-btn"></div>
         <div class="fas fa-bars" id="menu-btn"></div>
     </div>
 
@@ -42,11 +41,6 @@
         <a href="#gallery">games</a>
         <a href="#contact">contact</a>
     </nav>
-
-    <form action="" class="search-form">
-        <input type="search" name="" placeholder="search here..." id="search-box">
-        <label for="search-box" class="fas fa-search"></label>
-    </form>
 
 </header>
 
@@ -83,10 +77,9 @@
         </div>
 
         <div class="box" data-name="p-2">
-            <img src="images/g-2.jpg" alt="">
+            <img src="images/tripletables.png" alt="">
             <div class="content">
-                <h3>project 02</h3>
-                <span>01/09/2021</span>
+                <h3>COMING SOON</h3>
             </div>
         </div>
 
@@ -143,16 +136,7 @@
 
     <div class="preview" data-target="p-2">
         <i class="fas fa-times"></i>
-        <iframe width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/47944/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
-        <h3>Swinging Multiples</h3>
-        <div class="stars">
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star-half-alt"></i>
-           <span>( 250 )</span>
-        </div>
+        <h3>COMING SOON</h3>
      </div>
 
     <div class="preview" data-target="p-3">
@@ -184,18 +168,20 @@
 
     <h1 class="heading"> <span>contact</span> us </h1>
 
-    <form action="">
+    <form action="https://formspree.io/f/xjvdgwlb" method="POST">
         <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
+            <input type="text" placeholder="name" name="name">
+            <input type="email" placeholder="email" name="email">
         </div>
         <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
+            <input type="number" placeholder="number" name="number">
+            <input type="text" placeholder="subject" name="subject">
         </div>
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <textarea name="" placeholder="your message" name="message" cols="30" rows="10"></textarea>
         <input type="submit" value="send message" class="btn">
     </form>
+
+    
 
 </section>
 

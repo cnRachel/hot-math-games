@@ -3,21 +3,14 @@ let searchBtn = document.querySelector('#search-btn');
 let themeBtn = document.querySelector('#theme-btn');
 
 let navbar = document.querySelector('.navbar');
-let searchForm = document.querySelector('.search-form');
 
 menuBtn.onclick = () =>{
   navbar.classList.toggle('active');
-  searchForm.classList.remove('active');
 }
 
-searchBtn.onclick = () =>{
-  searchForm.classList.toggle('active');
-  navbar.classList.remove('active');
-}
 
 window.onscroll = () =>{
   navbar.classList.remove('active');
-  searchForm.classList.remove('active');
 }
 
 themeBtn.onclick = () => {
@@ -54,3 +47,5 @@ previewBox.forEach(close =>{
     location.reload();
   };
 });
+
+////////////////////////////////////////////////////////////////////
